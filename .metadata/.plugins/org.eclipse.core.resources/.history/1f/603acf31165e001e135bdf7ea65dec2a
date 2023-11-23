@@ -1,0 +1,38 @@
+package COBAA;
+public class percobaan {
+    // Atribut
+    private String nama;
+    private String jurusan;
+    private int npm;
+
+    // Konstruktor
+    public void Mahasiswa(String nama, String jurusan, int npm) {
+        this.nama = nama;
+        this.jurusan = jurusan;
+        this.npm = npm;
+    }
+
+    // Metode untuk mengatur Nama
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    // Metode untuk mengatur Jurusan
+    public void setJurusan(String jurusan) {
+        this.jurusan = jurusan;
+    }
+
+    // Metode untuk mengatur NPM
+    public void setNpm(int npm) {
+        this.npm = npm;
+    }
+
+    // Metode untuk menampilkan informasi Mahasiswa
+    public void info() {
+        System.out.println("Nama: " + nama);
+        System.out.println("Jurusan: " + jurusan);
+        System.out.println("NPM: " + npm);
+    }
+
+   
+}

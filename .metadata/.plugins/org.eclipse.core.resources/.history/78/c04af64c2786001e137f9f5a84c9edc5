@@ -1,0 +1,20 @@
+package L55_Handphone;
+
+public class WindowsPhone extends Handphone {
+    private String wpKeyStore;
+
+    // Konstruktor
+    public WindowsPhone(String manufacture, String operatingSystem, String model, int harga) {
+        super(manufacture, operatingSystem, model, harga);
+        this.wpKeyStore = ""; // Inisialisasi wpKeyStore dengan nilai default
+    }
+
+    // Metode getter dan setter untuk wpKeyStore
+    public String getWpKeyStore() {
+        return wpKeyStore;
+    }
+
+    public void setWpKeyStore(String wpKeyStore) {
+        this.wpKeyStore = wpKeyStore;
+    }
+}

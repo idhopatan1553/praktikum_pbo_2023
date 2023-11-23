@@ -1,0 +1,21 @@
+package praktikum5;
+import java.util.Scanner;
+
+public class TestHewan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		string namaKucing;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Nama Kucing Kamu ");
+		namaKucing = input.next();
+		
+		
+		Cat Kucing = new Cat(namaKucing);
+//		Cat Kucing = new Cat("Xiro"); (by sistem)
+		
+		System.out.println("Kucing "+ Kucing.name+ " ada dirumah");
+		Kucing.eat();
+	}
+
+}

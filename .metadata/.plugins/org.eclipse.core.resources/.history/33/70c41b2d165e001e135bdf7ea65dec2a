@@ -1,0 +1,26 @@
+package COBAA;
+
+public class MainCobaan extends {
+		 public static void main(String[] args) {
+		     // Buat objek
+		     Mahasiswa mahasiswa1 = new Mahasiswa();
+		     Mahasiswa mahasiswa2 = new Mahasiswa();
+
+		     // Menggunakan set untuk mengatur informasi mahasiswa
+		     mahasiswa1.setNama("Cita");
+		     mahasiswa1.setJurusan("Telkom");
+		     mahasiswa1.setNpm(7206);
+
+		     // Menggunakan set untuk mengatur informasi mahasiswa
+		     mahasiswa2.setNama("Raka");
+		     mahasiswa2.setJurusan("IT");
+		     mahasiswa2.setNpm(7306);
+
+		     // Menggunakan metode info() untuk menampilkan informasi mahasiswa
+		     System.out.println("Informasi Mahasiswa 1:");
+		     mahasiswa1.info();
+
+		     System.out.println("Informasi Mahasiswa 2:");
+		     mahasiswa2.info();
+		 }
+		}

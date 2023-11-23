@@ -1,0 +1,28 @@
+package L60_Akatsuki;
+
+public class Main {
+    public static void main(String[] args) {
+        // Membuat objek AkatsukiMember pertama
+        AkatsukiMember nagato = new AkatsukiMember("Uzumaki Nagato", "Uzumaki", "Shinra tensei, Chibaku tensei", 0, "Rei", "Meninggal");
+
+        // Menampilkan profil Nagato
+        System.out.println("Nama Lengkap 	: " + nagato.getNama());
+        System.out.println("Umur 			: " + nagato.getUmur() + " tahun");
+        System.out.println("Asal Clan	 	: " + nagato.getAsalClan());
+        System.out.println("Kemampuan yang dimiliki : " + nagato.getKemampuan());
+        System.out.println("Status 			: " + nagato.getStatus());
+        System.out.println("Cincin 			: " + nagato.getCincin());
+        System.out.println();
+
+        // Membuat objek AkatsukiMember kedua
+        AkatsukiMember obito = new AkatsukiMember("Uchiha Obito", "Uchiha", "Izanagi", 28, "Virgo", "Masih Hidup");
+
+        // Menampilkan profil Obito
+        System.out.println("Nama Lengkap : " + obito.getNama());
+        System.out.println("Umur : " + obito.getUmur() + " tahun");
+        System.out.println("Asal Clan : " + obito.getAsalClan());
+        System.out.println("Kemampuan yang dimiliki : " + obito.getKemampuan());
+        System.out.println("Status : " + obito.getStatus());
+        System.out.println("Cincin : " + obito.getCincin());
+    }
+}

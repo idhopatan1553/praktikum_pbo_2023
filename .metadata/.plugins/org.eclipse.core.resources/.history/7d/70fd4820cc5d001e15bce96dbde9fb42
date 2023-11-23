@@ -1,0 +1,22 @@
+package COBAA;
+
+public class MainCobaan extends Mahasiswa {
+		 public static void main(String[] args) {
+		     // Membuat objek Mahasiswa
+		     Mahasiswa mahasiswa1 = new Mahasiswa("Cita", "Telkom", 2172);
+		     Mahasiswa mahasiswa2 = new Mahasiswa("Raka", "Telkom", 2173);
+
+		     // Menampilkan informasi Mahasiswa
+		     System.out.println("Data Mahasiswa 1:");
+		     System.out.println("Nama: " + mahasiswa1.getNama());
+		     System.out.println("Jurusan: " + mahasiswa1.getJurusan());
+		     System.out.println("NRP: " + mahasiswa1.getNrp());
+
+		     System.out.println();
+
+		     System.out.println("Data Mahasiswa 2:");
+		     System.out.println("Nama: " + mahasiswa2.getNama());
+		     System.out.println("Jurusan: " + mahasiswa2.getJurusan());
+		     System.out.println("NRP: " + mahasiswa2.getNrp());
+		 }
+		}

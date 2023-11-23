@@ -1,0 +1,18 @@
+package COBAA;
+	class Siswa {
+    String nama;
+    String jurusan;
+    int nrp;
+    }
+	
+public class percobaan{
+    public static void main(String[] args) {
+        Siswa a = new Siswa();
+        a.nama = "Cita";
+        a.jurusan = "Telkom";
+        a.nrp = 7206;
+        
+        System.out.println("Nama: " + a.nama);
+        System.out.println("Jurusan: " + a.jurusan);
+        System.out.println("NRP: " + a.nrp);}
+    }

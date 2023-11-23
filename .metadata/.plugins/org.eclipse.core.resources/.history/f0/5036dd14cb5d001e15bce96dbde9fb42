@@ -1,0 +1,40 @@
+package COBAA;
+
+public class Mahasiswa extends percobaan {
+	public Mahasiswa(String string, String string2, int i) {
+		// TODO Auto-generated constructor stub
+		}
+public static void main(String[] args) {
+    // Membuat objek Mahasiswa
+    Mahasiswa mahasiswa = new Mahasiswa("Cita", "Telkom", 2172);
+    Mahasiswa mahasiswa2 = new Mahasiswa("Cita", "Telkom", 2172);
+    
+    // Menampilkan informasi awal
+    System.out.println("Informasi Awal:");
+    mahasiswa.info();
+    
+    // Mengubah informasi Mahasiswa
+    mahasiswa.setNama("Raka");
+    mahasiswa.setJurusan("Telkom");
+    mahasiswa.setNpm(2173);
+
+    // Menampilkan informasi setelah perubahan
+    System.out.println("\nInformasi Setelah Perubahan:");
+    mahasiswa.info();
+	}
+public void setNpm(int i) {
+	// TODO Auto-generated method stub
+	
+}
+public void setJurusan(String string) {
+	
+}
+public void setNama(String string) {
+	// TODO Auto-generated method stub
+	
+}
+public void info() {
+	// TODO Auto-generated method stub
+	
+}
+}

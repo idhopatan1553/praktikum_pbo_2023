@@ -1,0 +1,39 @@
+package praktikum2;
+import java.util.Scanner;
+
+public class Pengkodisian {
+	public static void main(String[] args) {
+//		inisialisasi
+		Scanner input = new Scanner(System.in);
+		int angka1, angka2, hasil, perhitungan;
+//		input user
+		System.out.print("Masukan angka 1 :  ");
+		angka1 = input.nextInt();
+		System.out.print("Masukan angka 2 :  ");
+		angka2 = input.nextInt();
+//		input perhitungan
+		System.out.print("\nMasukan Perhitungan yang ingin dilakukan : \n"
+				+ "1, Pertambahan\n"
+				+ "2, Pengurangan\n"
+				+ "3, Pembagian\n"
+				+ "4, Perkalian\n"
+				+ "Masukan Angka : ");
+		perhitungan = input.nextInt();
+		//Pengkondisisan
+		if(perhitungan == 1) {
+			hasil = angka1 + angka2;
+			System.out.print("Hasilnya adalah :  " + hasil);
+		} else if (perhitungan == 2) {
+			hasil = angka1 - angka2;
+			System.out.print("Hasilnya adalah :  " + hasil);
+		} else if (perhitungan == 3) {
+			hasil = angka1 / angka2;
+			System.out.print("Hasilnya adalah :  " + hasil);
+		} else if (perhitungan == 4) {
+			hasil = angka1 * angka2;
+			System.out.print("Hasilnya adalah :  " + hasil);
+		}
+	}
+	
+
+}

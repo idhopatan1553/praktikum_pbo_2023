@@ -1,0 +1,60 @@
+package COBAA;
+
+public class Siswa {
+	 // Atribut
+	 public String nama;
+	 public String jurusan;
+	 public int nrp;
+
+	 // Konstruktor
+	 public Siswa() {
+	     nama = "";
+	     jurusan = "";
+	     nrp = 0;
+	 }
+	 public void setNama(String namasiswa) {
+	     nama = namasiswa;
+	 }
+	 public void setJurusan(String jurusansiswa) {
+	     jurusan = jurusansiswa;
+	 }
+	 public void setNrp(int nrpsiswa) {
+	     nrp = nrpsiswa;
+	 }
+
+	 public String setNama() {
+	     return nama;
+	 }
+	 public String setJurusan() {
+	     return jurusan;
+	 }
+	 public int setNrp() {
+	     return nrp;
+	 }
+	 public static void main(String[] args) {
+	     // Buat objek
+	     Siswa siswax = new Siswa();
+	     Siswa siswaz = new Siswa();
+
+	     // Menggunakan set buat mengatur informasi mahasiswa
+	     siswax.setNama("Cita");
+	     siswax.setJurusan("Telkom");
+	     siswax.setNrp(7206);
+
+	     // Menggunakan set buat mengatur informasi mahasiswa
+	     siswaz.setNama("Raka");
+	     siswaz.setJurusan("IT");
+	     siswaz.setNrp(7306);
+
+	     // Menggunakan metode info() untuk menampilkan informasi mahasiswa
+	     siswax.info();
+	     siswaz.info();
+	 }
+	 //  buat menampilkan informasi mahasiswa
+	 public void info() {
+	     System.out.println("Nama	: " + setNama());
+	     System.out.println("Jurusan	: " + setJurusan());
+	     System.out.println("NPM	: " + setNrp());
+	     System.out.println();
+	}
+}

@@ -1,0 +1,14 @@
+package praktikum4;
+
+public class TestTabungan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tabungan tabungan = new Tabungan(5000);
+		System.out.print("Saldo awal : " + tabungan.saldo);
+		tabungan.ambiluang(2300);
+		System.out.print("Jumlah uang yang diambil : 2300");
+		System.out.print("\nsaldo sekarang : " +tabungan.saldo );
+	}
+
+}

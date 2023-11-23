@@ -1,0 +1,15 @@
+package praktikum4;
+
+public class TestSiswa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Siswa anak = new Siswa();
+		anak.setNama("Fatan");
+		anak.setNpm(15);
+		
+		System.out.print("Npm Mahasiswa  : " + anak.npm 
+						+ "\nNama Mahasiswa : " + anak.nama);
+	}
+
+}

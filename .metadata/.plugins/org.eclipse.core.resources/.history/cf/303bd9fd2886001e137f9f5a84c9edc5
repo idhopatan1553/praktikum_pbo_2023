@@ -1,0 +1,25 @@
+package L60_Akatsuki;
+
+
+//Subclass AkatsukiMember dari Karakter
+public class AkatsukiMember extends Karakter {
+	private int cincin;
+
+// Konstruktor
+	public AkatsukiMember(String nama, String kemampuan, String asalClan, int umur, int cincin) {
+		super(nama, kemampuan, asalClan, umur);
+		this.cincin = cincin;
+		}
+
+// Override metode tampilProfil dari superclass
+//@Override
+	public void tampilProfil() {
+		super.tampilProfil();
+		System.out.println("Cincin: " + cincin);
+		}
+
+// Metode khusus AkatsukiMember
+	public void tampilCincin() {
+		System.out.println(nama + " memiliki cincin nomor " + cincin);
+		}
+}

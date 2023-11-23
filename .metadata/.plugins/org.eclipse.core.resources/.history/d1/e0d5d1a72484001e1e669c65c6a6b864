@@ -1,0 +1,12 @@
+package praktikum5;
+
+public class TestHewan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cat Kucing = new Cat("Xiro");
+		System.out.println("Kucing "+ Kucing.name
+				+ " ada dirumah");
+	}
+
+}

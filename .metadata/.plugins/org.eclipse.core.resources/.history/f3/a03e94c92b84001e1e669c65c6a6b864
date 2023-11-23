@@ -1,0 +1,22 @@
+package praktikum5;
+import java.util.Scanner;
+
+public class TestHewan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String namaKucing;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Nama Kucing ");
+		namaKucing = input.next();
+		
+		Cat kucingSaya = new Cat();
+		kucingSaya.identitas(namaKucing,"putih", 2);
+//		Cat Kucing = new Cat("Xiro"); (by sistem)
+		System.out.println("\nKucing "+ kucingSaya.name
+				+ " Warnanya " +kucingSaya.ambilWarna()
+				+ " beratnya " +kucingSaya.ambilBerat() +"kg");
+		kucingSaya.eat();
+	}
+
+}

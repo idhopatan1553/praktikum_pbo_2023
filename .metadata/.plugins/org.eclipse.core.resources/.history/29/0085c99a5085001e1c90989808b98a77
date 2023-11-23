@@ -1,0 +1,26 @@
+package L54_koordinat;
+
+public class main {
+	 public static void main(String[] args) {
+	        // Contoh penggunaan kelas Koordinat
+	        Koordinat k = new Koordinat(10, 20);
+
+	        System.out.println("Koordinat Awal: (" + k.getX() + ", " + k.getY() + ")");
+	        
+	        // Mengubah nilai x dan y
+	        k.setX(30);
+	        k.setY(40);
+
+	        System.out.println("Koordinat Setelah Perubahan: (" + k.getX() + ", " + k.getY() + ")");
+	       // Contoh penggunaan kelas WarnaKoordinat
+	        WarnaKoordinat warnaKoordinat = new WarnaKoordinat(5, 10, "Merah");
+
+	        System.out.println("Koordinat Warna: (" + warnaKoordinat.getX() + ", " + warnaKoordinat.getY() +
+	                "), Nama Warna: " + warnaKoordinat.getNamaWarna());
+
+	        // Mengubah nama warna
+	        warnaKoordinat.setNamaWarna("Biru");
+
+	        System.out.println("Setelah Perubahan, Nama Warna: " + warnaKoordinat.getNamaWarna());
+	    }
+}
